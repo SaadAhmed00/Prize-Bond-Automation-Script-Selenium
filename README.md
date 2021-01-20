@@ -7,7 +7,7 @@ after the code execution**,(check xlsx sheet for guidance in Sheet Folder).
 2. Enter All your Bond Numbers once in the xlsx sheet you created, save it.
 
 ### Step-2:
-  Clone the Code https://github.com/SaadAhmed00/Prize-Bond-Automation-Script-Selenium.git
+  Clone the Code <br/>git clone https://github.com/SaadAhmed00/Prize-Bond-Automation-Script-Selenium.git
 
 ### Step-3:
   1. Put your saved xlsx file in Sheet folder.

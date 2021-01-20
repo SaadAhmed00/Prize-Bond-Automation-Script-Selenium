@@ -18,7 +18,9 @@ after the code execution**,(check xlsx sheet for guidance in Sheet Folder).
 ### Step-4:
   1. Write your bond amount (e.g 200,750,1500,7500 etc) on line number 33. <br />
   select.select_by_visible_text('**Your Bond Amount in signle inverted comma**') <br/>
-  Example: select.select_by_visible_text('**750**')
+  Example: select.select_by_visible_text('**750**').
+  2. Download Chrome Driver and add the .exe path in line 27 <br/>
+  driver = webdriver.Chrome(r'Your Path')
   
 ### Step-5:
   Run the Code and wait for the magic.

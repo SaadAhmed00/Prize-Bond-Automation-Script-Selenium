@@ -16,4 +16,6 @@ after the code execution**,(check xlsx sheet for guidance in Sheet Folder).
      my_wb.save("Your Path")
 
 ### Step-4:
-  Run the Code.
+  Write your bond amount (e.g 200,750,1500,7500 etc) on line number 33. <br />
+  select.select_by_visible_text('**Your Bond Amount in signle inverted comma**') <br/>
+  Example: select.select_by_visible_text('**750**')

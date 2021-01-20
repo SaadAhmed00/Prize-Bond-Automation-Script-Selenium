@@ -1,6 +1,6 @@
 # Prize-Bond-Automation-Script-Selenium
 ### Step-1:
-1. Create an xlsx sheet which contain 2 columns, 1st row 1st column contain heaeding  **Bond Numbers**,1st row 2nd column contain **Bond Status**,
+1. Create an xlsx sheet which contain 2 columns, 1st row 1st column contain heading **Bond Numbers**,1st row 2nd column contain **Bond Status**,
 2nd (row till end) 1st column contain **123456 (6-digit bond numbers)**,2nd (row till end) 2nd column is empty , it will **automatically filled 
 after the code execution**,(check xlsx sheet for guidance in Sheet Folder).
 
@@ -16,7 +16,7 @@ after the code execution**,(check xlsx sheet for guidance in Sheet Folder).
      my_wb.save("Your Path")
 
 ### Step-4:
-  Write your bond amount (e.g 200,750,1500,7500 etc) on line number 33. <br />
+  1. Write your bond amount (e.g 200,750,1500,7500 etc) on line number 33. <br />
   select.select_by_visible_text('**Your Bond Amount in signle inverted comma**') <br/>
   Example: select.select_by_visible_text('**750**')
   
@@ -28,4 +28,4 @@ after the code execution**,(check xlsx sheet for guidance in Sheet Folder).
   2. Select those numbers whose status are **Congratulations! You have won 1 prize(s).**. These are your bond numbers who won the prize.
 
 ### Step-7:
-  1.Before the next execution of code clean your xlsx file **entire rows below the Bond Status Column** and save it and then run the code for next bond announcement.
+  Before the next execution of code clean your xlsx file **entire rows below the Bond Status Column** and save it and then run the code for next bond announcement.

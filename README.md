@@ -11,7 +11,7 @@ after the code execution**,(check xlsx sheet for guidance in Sheet Folder).
 
 ### Step-3:
   1. Put your saved xlsx file in Sheet folder.
-  2. Change path with respect to your xlsx sheet path in line 15 and line 52
-     path = "Your Path"
+  2. Change path with respect to your xlsx sheet path in line 15 and line 52<br />
+     path = "Your Path" <br />
      my_wb.save("Your Path")
   

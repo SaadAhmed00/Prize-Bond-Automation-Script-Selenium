@@ -5,3 +5,6 @@
 after the code execution**,(check xlsx sheet for guidance in Sheet Folder).
 
 2. Enter All your Bond Numbers once in the xlsx sheet you created, save it and place it in Sheet Folder.
+
+### Step-2:
+  Clone the Code
